@@ -1,0 +1,65 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+width: 60%;
+background-color: gray;
+border-radius: 10px;
+text-align: center;
+margin-top: 10%;
+padding-bottom: 5%;
+}
+
+h1{
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.create-button{
+    display: flex;
+    gap: 5px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: pink;
+    padding: 1%;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    color: black;
+}
+
+img{
+    height: 45px;
+}
+
+/* Small devices (phones) */
+@media (max-width: 600px) {
+  *{
+    flex-direction: column;
+  }
+  button{
+    padding: 2%;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  *{
+    flex-direction: row;
+  }
+  button{
+    padding: 2%;
+  }
+}
