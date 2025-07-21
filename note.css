@@ -48,23 +48,17 @@ img{
     height: 45px;
 }
 
-.input-box{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.input-box p{
+.input-box .box{
   position: relative;
-  margin: 30px;
-  width: 80%;
+  margin: 35px;
+  width: 90%;
   min-height: 100px;
   color: black;
   border:solid gainsboro ;
   border-radius: 8px;
   background-color: white;
   outline: none;
-  
+  text-align: left;
 }
 
 .input-box img{
@@ -73,6 +67,7 @@ img{
   height: 25px;
   bottom: 15px;
   right: 15px;
+  cursor: pointer;
 }
 
 /* Small devices (phones) */
@@ -86,6 +81,9 @@ img{
   }
   .input-box p{
     width: 85%;
+  }
+  .input-box .box{
+    width: 50%;
   }
   form{
     width: 60%;
@@ -102,6 +100,9 @@ img{
     width : 40%;
   }
   .input-box p{
+    width: 85%;
+  }
+  .input-box .box{
     width: 85%;
   }
   form{
