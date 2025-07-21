@@ -7,10 +7,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
 }
 
 form{
-width: 60%;
+width: 40%;
 background-color: gray;
 border-radius: 10px;
 text-align: center;
@@ -34,14 +35,44 @@ h1{
 button{
     background-color: pink;
     padding: 1%;
-    border-radius: 8px;
+    border-radius: 20px;
     border: none;
     font-weight: bold;
-    color: black;
+    color:cadetblue;
+    cursor: pointer;
+    width : 20%;
+    font-size: large;
 }
 
 img{
     height: 45px;
+}
+
+.input-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-box p{
+  position: relative;
+  margin: 30px;
+  width: 80%;
+  min-height: 100px;
+  color: black;
+  border:solid gainsboro ;
+  border-radius: 8px;
+  background-color: white;
+  outline: none;
+  
+}
+
+.input-box img{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  bottom: 15px;
+  right: 15px;
 }
 
 /* Small devices (phones) */
@@ -51,6 +82,13 @@ img{
   }
   button{
     padding: 2%;
+    width : 40%;
+  }
+  .input-box p{
+    width: 85%;
+  }
+  form{
+    width: 60%;
   }
 }
 
@@ -61,5 +99,12 @@ img{
   }
   button{
     padding: 2%;
+    width : 40%;
+  }
+  .input-box p{
+    width: 85%;
+  }
+  form{
+    width: 60%;
   }
 }
